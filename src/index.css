@@ -1,6 +1,26 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../public/fonts/ProximaNova-Black.ttf');
+  src: url('../public/fonts/ProximaNova-Bold.ttf');
+  src: url('../public/fonts/ProximaNova-BoldIt.ttf');
+  src: url('../public/fonts/ProximaNova-Extrabld.ttf');
+  src: url('../public/fonts/ProximaNova-ExtrabldIt.ttf');
+  src: url('../public/fonts/ProximaNova-Light.ttf');
+  src: url('../public/fonts/ProximaNova-Regular.ttf');
+  src: url('../public/fonts/ProximaNova-Semibold.ttf');
+  src: url('../public/fonts/ProximaNova-SemiboldIt.ttf');
+  src: url('../public/fonts/ProximaNova-ThinIt.ttf');
+  src: url('../public/fonts/ProximaNovaT-Thin.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "ProximaNova", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
